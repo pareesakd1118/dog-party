@@ -4,13 +4,35 @@ body {
   background: url('../../dist/images/park.jpg') center/cover;
   height: 100vh;
   width: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-nav {
+.top-nav {
   // Example of using a variable:
   background-color: $secondary-accent-color;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 600;
+
+  div {
+    display: flex;
+    width: 156px;
+    justify-content: space-evenly;
+  }
+
+  p:hover {
+    cursor: pointer;
+  }
 }
 
 .dog-icon {
-  width: 50px;
+  width: 30px;
 }
