@@ -9,7 +9,6 @@ body {
 }
 
 .top-nav {
-  // Example of using a variable:
   background-color: $secondary-accent-color;
   width: 100%;
   height: 45px;
@@ -27,10 +26,10 @@ body {
     width: 156px;
     justify-content: space-evenly;
   }
+}
 
-  p:hover {
-    cursor: pointer;
-  }
+p:hover {
+  cursor: pointer;
 }
 
 .dog-icon {
@@ -52,16 +51,77 @@ body {
   margin-bottom: 15px;
 }
 
-.what-btn {
-  width: 130px;
+button {
   height: 30px;
   border: 3px solid $main-accent-color;
   font-family: "Raleway", sans-serif;
   color: $main-accent-color;
+  cursor: pointer
+}
+
+.what-btn {
+  width: 130px;
 }
 
 .bottom {
   background-color: rgba(255, 255, 255); 
   width: 100%;
   height: 456px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 41px;
+  padding-bottom: 25px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+h2, h3 {
+  font-weight: normal;
+}
+
+.bottom-img {
+  width: 178px;
+  border-radius: 50%;
+  border: 2.5px solid $main-accent-color;
+}
+
+.bottom-nav {
+  height: 187px;
+  background-color: $main-accent-color;
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    width: 312px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  p {
+    text-decoration: underline;
+    margin: 0;
+  }
+}
+
+h3 {
+  margin: 0;
+}
+
+.icon {
+  height: 40px;
+  cursor: pointer;
 }
