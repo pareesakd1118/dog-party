@@ -36,3 +36,32 @@ body {
 .dog-icon {
   width: 30px;
 }
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 435px;
+  padding-top: 45px;
+}
+
+.main-dog {
+  border-radius: 50%;
+  width: 260px;
+  border: 3px solid $main-accent-color;
+  margin-bottom: 15px;
+}
+
+.what-btn {
+  width: 130px;
+  height: 30px;
+  border: 3px solid $main-accent-color;
+  font-family: "Raleway", sans-serif;
+  color: $main-accent-color;
+}
+
+.bottom {
+  background-color: rgba(255, 255, 255); 
+  width: 100%;
+  height: 456px;
+}
